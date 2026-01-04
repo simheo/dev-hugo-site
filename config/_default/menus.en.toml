@@ -2,48 +2,44 @@
 
 # main menu
 [[main]]
-name = "Home"
+name = "Le Low-tech lab"
 url = "/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "/about"
+name = "La low-tech"
+url = "/low-tech"
 weight = 2
 
 [[main]]
-name = "Elements"
-url = "/elements"
+name = "Les outils"
+url = "/outils"
 weight = 3
 
 [[main]]
+name = "Actualités / Blog"
+url = "actu-blog"
 weight = 4
-name = "Pages"
 
 [[main]]
-parent = "Pages"
-name = "Blog"
-url = "/blog"
+parent = "Actualités / Blog"
+name = "Le wiki / les tutos"
+url = "/wiki"
 
 [[main]]
-parent = "Pages"
-name = "Contact"
-url = "/contact"
+parent = "Actualités / Blog"
+name = "Annuaire"
+url = "/annuaire"
 
 [[main]]
-parent = "Pages"
-name = "Authors"
-url = "/authors"
+parent = "Actualités / Blog"
+name = "Agenda"
+url = "/agenda"
 
 [[main]]
-parent = "Pages"
-name = "Categories"
-url = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
+parent = "Actualités / Blog"
+name = "Contribuer"
+url = "/contribuer"
 
 
 # footer menu

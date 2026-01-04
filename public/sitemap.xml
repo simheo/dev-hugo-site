@@ -56,19 +56,17 @@
     <loc>//localhost:1313/tags/technology/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/actu-blog/</loc>
+  </url><url>
     <loc>//localhost:1313/authors/</loc>
   </url><url>
     <loc>//localhost:1313/contact/</loc>
   </url><url>
-    <loc>//localhost:1313/elements/</loc>
+    <loc>//localhost:1313/actu-blog/elements/</loc>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>//localhost:1313/low-tech/</loc>
   </url><url>
     <loc>//localhost:1313/authors/john-doe/</loc>
-  </url><url>
-    <loc>//localhost:1313/pages/</loc>
-  </url><url>
-    <loc>//localhost:1313/privacy-policy/</loc>
   </url><url>
     <loc>//localhost:1313/authors/sam-wilson/</loc>
   </url><url>
