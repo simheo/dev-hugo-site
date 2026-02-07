@@ -31,11 +31,11 @@
 
 
 
-<link rel="shortcut icon" href="/images/low_tech_logo_hu_78eb526e75e305ed.png" type="image/x-icon">
-<link rel="icon" href="/images/low_tech_logo_hu_78eb526e75e305ed.png" type="image/x-icon">
-<link rel="icon" type="image/png" sizes="48x48" href="/images/low_tech_logo_hu_9a4bada5b8a33b35.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/images/low_tech_logo_hu_78eb526e75e305ed.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/images/low_tech_logo_hu_19291a2961143e6c.png">
+<link rel="shortcut icon" href="/images/low_tech_logo_hu_a47ddf6a875a8fe6.png" type="image/x-icon">
+<link rel="icon" href="/images/low_tech_logo_hu_a47ddf6a875a8fe6.png" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="48x48" href="/images/low_tech_logo_hu_b8f90993d19c1fa.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/low_tech_logo_hu_a47ddf6a875a8fe6.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/low_tech_logo_hu_9b577de991dd3ce8.png">
 
 
 
@@ -226,7 +226,7 @@
 
 <script>
   let indexURL = "//localhost:1313/searchindex.json";
-  let includeSectionsInSearch = ["blog"];
+  let includeSectionsInSearch = ["blog","tutorials"];
   let search_no_results = "No results for";
   let search_initial_message = "Type something to search..";
 </script>
@@ -350,6 +350,8 @@
   onload="this.media='all'; this.onload=null;" />
 
 
+    
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
 
   <body>
@@ -516,9 +518,9 @@
       class="img img-light"
       width="160"
       height="32"
-      src="/images/low_tech_logo_hu_b51c2d4e564a6aa5.webp"
+      src="/images/low_tech_logo_hu_b986cbd2488e86a.webp"
       alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/images\/low_tech_logo_hu_5d75a41c7ed3001a.png';" />
+      onerror="this.onerror=null;this.src='\/images\/low_tech_logo_hu_601f908f94723ed2.png';" />
 
     <img
       fetchpriority="high"
@@ -526,9 +528,9 @@
       class="img img-dark"
       width="160"
       height="32"
-      src="/images/logo-darkmode_hu_697f210828a52bb0.webp"
+      src="/images/logo-darkmode_hu_fcc71fca3e5f0ccd.webp"
       alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/images\/logo-darkmode_hu_64e091809c7e34cb.png';" />
+      onerror="this.onerror=null;this.src='\/images\/logo-darkmode_hu_2bf0de35cf0efdc4.png';" />
   
   
 
@@ -591,27 +593,13 @@
         
         
         
-          <li class="nav-item">
-            <a
-              class="nav-link "
-              
-              href="/outils"
-              >Les outils</a
-            >
-          </li>
-        
-      
-        
-        
-        
-        
           <li class="nav-item nav-dropdown group relative">
             <input
               type="checkbox"
-              id="submenu-actualit%C3%A9s-/-blog"
+              id="submenu-les-outils"
               class="peer hidden lg:hidden" />
             <label
-              for="submenu-actualit%C3%A9s-/-blog"
+              for="submenu-les-outils"
               class="nav-link 
                 
                 
@@ -628,8 +616,12 @@
                 
                 
                 
+              
+                
+                
+                
                inline-flex items-center">
-              Actualités / Blog
+              Les outils
               <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
                 <path
                   d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
@@ -644,8 +636,8 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/agenda">
-                    Agenda
+                    href="/tutorials">
+                    Le wiki / les tutos
                   </a>
                 </li>
               
@@ -656,7 +648,18 @@
                     class="nav-dropdown-link "
                     
                     href="/annuaire">
-                    Annuaire
+                    L&#39;annuaire
+                  </a>
+                </li>
+              
+                
+                
+                <li class="nav-dropdown-item">
+                  <a
+                    class="nav-dropdown-link "
+                    
+                    href="/agenda">
+                    L&#39;agenda
                   </a>
                 </li>
               
@@ -677,12 +680,26 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/wiki">
-                    Le wiki / les tutos
+                    href="/ressources-documentaires">
+                    Ressources documentaires
                   </a>
                 </li>
               
             </ul>
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/actu-blog"
+              >Actualités / Blog</a
+            >
           </li>
         
       
@@ -1395,11 +1412,11 @@ example.com (but not on Github, for example).</p>
 <hr>
 <h3 id="code-and-syntax-highlighting">Code and Syntax Highlighting</h3>
 <p>This is an <code>Inline code</code> sample.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">s</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;JavaScript syntax highlighting&#34;</span>;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">s</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;JavaScript syntax highlighting&#34;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">alert</span>(<span style="color:#a6e22e">s</span>);
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>s <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Python syntax highlighting&#34;</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>s <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Python syntax highlighting&#34;</span>
 </span></span><span style="display:flex;"><span>print s
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-c" data-lang="c"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
 </span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(<span style="color:#66d9ef">void</span>)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>{
@@ -1662,9 +1679,9 @@ flowchart TD
             class="img img-fluid img-center"
             width="1096"
             height="480"
-            src="/images/image-placeholder_hu_8fb32665f429f99.png"
+            src="/images/image-placeholder_hu_c1e75d50d1b42406.png"
             alt="alter-text"
-            onerror="this.onerror='null';this.src='\/images\/image-placeholder_hu_8fb32665f429f99.png'" />
+            onerror="this.onerror='null';this.src='\/images\/image-placeholder_hu_c1e75d50d1b42406.png'" />
       
     
 
@@ -1789,11 +1806,11 @@ flowchart TD
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/01_hu_4ec0c88dd798d5f7.jpg"
+                src="/images/gallery/01_hu_86bb4a6512750199.jpg"
                 class="img"
                 style="margin: 0;"
                 alt="01.jpg"
-                onerror="this.onerror='null';this.src='\/images\/gallery\/01_hu_4ec0c88dd798d5f7.jpg'" />
+                onerror="this.onerror='null';this.src='\/images\/gallery\/01_hu_86bb4a6512750199.jpg'" />
             </a>
           
         </div>
@@ -1876,11 +1893,11 @@ flowchart TD
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/02_hu_6c2192805f9a3e49.jpg"
+                src="/images/gallery/02_hu_2cf2e985658fa922.jpg"
                 class="img"
                 style="margin: 0;"
                 alt="02.jpg"
-                onerror="this.onerror='null';this.src='\/images\/gallery\/02_hu_6c2192805f9a3e49.jpg'" />
+                onerror="this.onerror='null';this.src='\/images\/gallery\/02_hu_2cf2e985658fa922.jpg'" />
             </a>
           
         </div>
@@ -1963,11 +1980,11 @@ flowchart TD
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/03_hu_8d93254e61983ec7.jpg"
+                src="/images/gallery/03_hu_3b4b144ce9bd3090.jpg"
                 class="img"
                 style="margin: 0;"
                 alt="03.jpg"
-                onerror="this.onerror='null';this.src='\/images\/gallery\/03_hu_8d93254e61983ec7.jpg'" />
+                onerror="this.onerror='null';this.src='\/images\/gallery\/03_hu_3b4b144ce9bd3090.jpg'" />
             </a>
           
         </div>
@@ -2050,11 +2067,11 @@ flowchart TD
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/04_hu_ebe142f8e1223bb5.jpg"
+                src="/images/gallery/04_hu_b86cffbf15bd28eb.jpg"
                 class="img"
                 style="margin: 0;"
                 alt="04.jpg"
-                onerror="this.onerror='null';this.src='\/images\/gallery\/04_hu_ebe142f8e1223bb5.jpg'" />
+                onerror="this.onerror='null';this.src='\/images\/gallery\/04_hu_b86cffbf15bd28eb.jpg'" />
             </a>
           
         </div>
@@ -2137,11 +2154,11 @@ flowchart TD
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/05_hu_bbb439f52843256d.jpg"
+                src="/images/gallery/05_hu_3835414f75a5f8d4.jpg"
                 class="img"
                 style="margin: 0;"
                 alt="05.jpg"
-                onerror="this.onerror='null';this.src='\/images\/gallery\/05_hu_bbb439f52843256d.jpg'" />
+                onerror="this.onerror='null';this.src='\/images\/gallery\/05_hu_3835414f75a5f8d4.jpg'" />
             </a>
           
         </div>
@@ -2224,11 +2241,11 @@ flowchart TD
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/06_hu_4ec0c88dd798d5f7.jpg"
+                src="/images/gallery/06_hu_86bb4a6512750199.jpg"
                 class="img"
                 style="margin: 0;"
                 alt="06.jpg"
-                onerror="this.onerror='null';this.src='\/images\/gallery\/06_hu_4ec0c88dd798d5f7.jpg'" />
+                onerror="this.onerror='null';this.src='\/images\/gallery\/06_hu_86bb4a6512750199.jpg'" />
             </a>
           
         </div>
@@ -2347,11 +2364,11 @@ flowchart TD
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/01_hu_4ec0c88dd798d5f7.jpg"
+                  src="/images/gallery/01_hu_86bb4a6512750199.jpg"
                   class="img"
                   style="margin: 0"
                   alt="01.jpg"
-                  onerror="this.onerror='null';this.src='\/images\/gallery\/01_hu_4ec0c88dd798d5f7.jpg'" />
+                  onerror="this.onerror='null';this.src='\/images\/gallery\/01_hu_86bb4a6512750199.jpg'" />
               </a>
             
           </div>
@@ -2437,11 +2454,11 @@ flowchart TD
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/02_hu_6c2192805f9a3e49.jpg"
+                  src="/images/gallery/02_hu_2cf2e985658fa922.jpg"
                   class="img"
                   style="margin: 0"
                   alt="02.jpg"
-                  onerror="this.onerror='null';this.src='\/images\/gallery\/02_hu_6c2192805f9a3e49.jpg'" />
+                  onerror="this.onerror='null';this.src='\/images\/gallery\/02_hu_2cf2e985658fa922.jpg'" />
               </a>
             
           </div>
@@ -2527,11 +2544,11 @@ flowchart TD
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/03_hu_8d93254e61983ec7.jpg"
+                  src="/images/gallery/03_hu_3b4b144ce9bd3090.jpg"
                   class="img"
                   style="margin: 0"
                   alt="03.jpg"
-                  onerror="this.onerror='null';this.src='\/images\/gallery\/03_hu_8d93254e61983ec7.jpg'" />
+                  onerror="this.onerror='null';this.src='\/images\/gallery\/03_hu_3b4b144ce9bd3090.jpg'" />
               </a>
             
           </div>
@@ -2617,11 +2634,11 @@ flowchart TD
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/04_hu_ebe142f8e1223bb5.jpg"
+                  src="/images/gallery/04_hu_b86cffbf15bd28eb.jpg"
                   class="img"
                   style="margin: 0"
                   alt="04.jpg"
-                  onerror="this.onerror='null';this.src='\/images\/gallery\/04_hu_ebe142f8e1223bb5.jpg'" />
+                  onerror="this.onerror='null';this.src='\/images\/gallery\/04_hu_b86cffbf15bd28eb.jpg'" />
               </a>
             
           </div>
@@ -2707,11 +2724,11 @@ flowchart TD
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/05_hu_bbb439f52843256d.jpg"
+                  src="/images/gallery/05_hu_3835414f75a5f8d4.jpg"
                   class="img"
                   style="margin: 0"
                   alt="05.jpg"
-                  onerror="this.onerror='null';this.src='\/images\/gallery\/05_hu_bbb439f52843256d.jpg'" />
+                  onerror="this.onerror='null';this.src='\/images\/gallery\/05_hu_3835414f75a5f8d4.jpg'" />
               </a>
             
           </div>
@@ -2797,11 +2814,11 @@ flowchart TD
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/06_hu_4ec0c88dd798d5f7.jpg"
+                  src="/images/gallery/06_hu_86bb4a6512750199.jpg"
                   class="img"
                   style="margin: 0"
                   alt="06.jpg"
-                  onerror="this.onerror='null';this.src='\/images\/gallery\/06_hu_4ec0c88dd798d5f7.jpg'" />
+                  onerror="this.onerror='null';this.src='\/images\/gallery\/06_hu_86bb4a6512750199.jpg'" />
               </a>
             
           </div>
@@ -2967,9 +2984,9 @@ flowchart TD
       class="img img-light"
       width="160"
       height="32"
-      src="/images/low_tech_logo_hu_b51c2d4e564a6aa5.webp"
+      src="/images/low_tech_logo_hu_b986cbd2488e86a.webp"
       alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/images\/low_tech_logo_hu_5d75a41c7ed3001a.png';" />
+      onerror="this.onerror=null;this.src='\/images\/low_tech_logo_hu_601f908f94723ed2.png';" />
 
     <img
       fetchpriority="high"
@@ -2977,9 +2994,9 @@ flowchart TD
       class="img img-dark"
       width="160"
       height="32"
-      src="/images/logo-darkmode_hu_697f210828a52bb0.webp"
+      src="/images/logo-darkmode_hu_fcc71fca3e5f0ccd.webp"
       alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/images\/logo-darkmode_hu_64e091809c7e34cb.png';" />
+      onerror="this.onerror=null;this.src='\/images\/logo-darkmode_hu_2bf0de35cf0efdc4.png';" />
   
   
 

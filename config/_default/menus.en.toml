@@ -13,33 +13,43 @@ weight = 2
 
 [[main]]
 name = "Les outils"
-url = "/outils"
+url = "#"
 weight = 3
 
 [[main]]
-name = "Actualités / Blog"
-url = "actu-blog"
+parent = "Les outils"
+name = "Le wiki / les tutos"
+url = "/tutorials"
+weight = 1
+
+[[main]]
+parent = "Les outils"
+name = "L'annuaire"
+url = "/annuaire"
+weight = 2
+
+[[main]]
+parent = "Les outils"
+name = "L'agenda"
+url = "/agenda"
+weight = 3
+
+[[main]]
+parent = "Les outils"
+name = "Contribuer"
+url = "/contribuer"
 weight = 4
 
 [[main]]
-parent = "Actualités / Blog"
-name = "Le wiki / les tutos"
-url = "/wiki"
+parent = "Les outils"
+name = "Ressources documentaires"
+url = "/ressources-documentaires"
+weight = 5
 
 [[main]]
-parent = "Actualités / Blog"
-name = "Annuaire"
-url = "/annuaire"
-
-[[main]]
-parent = "Actualités / Blog"
-name = "Agenda"
-url = "/agenda"
-
-[[main]]
-parent = "Actualités / Blog"
-name = "Contribuer"
-url = "/contribuer"
+name = "Actualités / Blog"
+url = "/actu-blog"
+weight = 4
 
 
 # footer menu

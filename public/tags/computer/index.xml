@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer on Low Tech Lab</title>
+    <link>/tags/computer/</link>
+    <description>Recent content in Computer on Low Tech Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ordinateur Low-tech</title>
+      <link>/tutorials/ordinateur-low-tech/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/tutorials/ordinateur-low-tech/</guid>
+      <description>&lt;p&gt;A basic computer model that nevertheless meets most of our daily needs. All for a price not exceeding 30 euros! Create an affordable, functional desktop computer using a Raspberry Pi and salvaged components for basic office tasks, web browsing, and simple multimedia use.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

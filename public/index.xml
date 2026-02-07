@@ -6,8 +6,22 @@
     <description>Recent content on Low Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ordinateur low-tech</title>
+      <link>//localhost:1313/tutorials/ordinateur-low-tech/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tutorials/ordinateur-low-tech/</guid>
+      <description>&lt;p&gt;Un modèle d&amp;rsquo;ordinateur basique mais répondant néanmoins à la plupart de nos besoins quotidiens. Le tout, pour un prix n&amp;rsquo;excédant pas 30 euros ! Ce tutoriel vous guide dans la création d&amp;rsquo;un ordinateur de bureau fonctionnel et abordable utilisant un Raspberry Pi et des composants récupérés pour les tâches bureautiques de base, la navigation web et l&amp;rsquo;utilisation multimédia simple.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Powerbank simple</title>
+      <link>//localhost:1313/tutorials/powerbank-simple/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tutorials/powerbank-simple/</guid>
+      <description>&lt;p&gt;Powerbank/batterie externe simple pour petit éclairage indépendant ou recharge de smartphones. Ce tutoriel vous guide dans la construction d&amp;rsquo;une batterie externe à partir de cellules lithium-ion recyclées provenant de batteries d&amp;rsquo;ordinateur portable usagées.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to build an Application with modern Technology</title>
       <link>//localhost:1313/blog/post-1/</link>
@@ -49,6 +63,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/authors/john-doe/</guid>
       <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>//localhost:1313/actu-blog/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/actu-blog/privacy-policy/</guid>
+      <description>&lt;h4 id=&#34;responsibility-of-contributors&#34;&gt;Responsibility of Contributors&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ready to build your next project with Hugo?</title>

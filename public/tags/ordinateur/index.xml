@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ordinateur on Low Tech Lab</title>
+    <link>//localhost:1313/tags/ordinateur/</link>
+    <description>Recent content in Ordinateur on Low Tech Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/ordinateur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ordinateur low-tech</title>
+      <link>//localhost:1313/tutorials/ordinateur-low-tech/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tutorials/ordinateur-low-tech/</guid>
+      <description>&lt;p&gt;Un modèle d&amp;rsquo;ordinateur basique mais répondant néanmoins à la plupart de nos besoins quotidiens. Le tout, pour un prix n&amp;rsquo;excédant pas 30 euros ! Ce tutoriel vous guide dans la création d&amp;rsquo;un ordinateur de bureau fonctionnel et abordable utilisant un Raspberry Pi et des composants récupérés pour les tâches bureautiques de base, la navigation web et l&amp;rsquo;utilisation multimédia simple.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
