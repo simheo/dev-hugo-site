@@ -1,8 +1,13 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
-media_folder: static/img
-public_folder: /img
+  name: gitea
+  repo: simsim/dev-hugo-site
+  branch: main
+  app_id: 4b3a0fb6-1742-4ec3-91a1-b73eb02f3187
+  base_url: http://localhost:3000
+
+media_folder: static/images
+public_folder: /images
+
 collections:
   - name: 'blog'
     label: 'Blog'
