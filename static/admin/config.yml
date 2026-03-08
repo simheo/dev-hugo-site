@@ -4,6 +4,7 @@ backend:
   branch: main
   app_id: 4b3a0fb6-1742-4ec3-91a1-b73eb02f3187
   base_url: http://localhost:3000
+  api_root: http://localhost:3000/api/v1
 
 media_folder: static/images
 public_folder: /images
