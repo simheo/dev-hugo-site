@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: simheo/dev-hugo-site
+  name: git-gateway
   branch: github-pages
 
 media_folder: static/images
