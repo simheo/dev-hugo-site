@@ -1,10 +1,9 @@
 backend:
-  name: gitea
-  repo: simsim/dev-hugo-site
-  branch: main
-  app_id: d572ab2f-5bb1-4a78-8c38-03f69ef5f104
-  base_url: https://tokyo-agriculture-gathering-water.trycloudflare.com
-  api_root: https://tokyo-agriculture-gathering-water.trycloudflare.com/api/v1
+  name: github
+  repo: simheo/dev-hugo-site
+  branch: github-pages
+  auth_type: pkce
+  app_id: REPLACE_WITH_GITHUB_OAUTH_APP_CLIENT_ID
 
 media_folder: static/images
 public_folder: /images
