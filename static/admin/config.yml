@@ -2,7 +2,7 @@ backend:
   name: github
   repo: simheo/dev-hugo-site
   branch: github-pages
-  auth_type: pkce
+  auth_type: implicit
   app_id: Iv23liP7O73OUnuQDu7O
 
 media_folder: static/images
